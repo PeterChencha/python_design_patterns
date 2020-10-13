@@ -1,4 +1,4 @@
-rom abc import ABCMeta, abstractmethod
+from abc import ABCMeta, abstractmethod
 
 class AbsObserver(metaclass = ABCMeta):
     """docstring for AbsObserver."""
